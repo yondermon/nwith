@@ -6,15 +6,15 @@ This library provides `nwith` macro for named fallbacks of `with`-like clauses.
 
 The package can be installed as:
 
-  1. Add exiban to your list of dependencies in `mix.exs`:
+1. Add nwith to your list of dependencies in `mix.exs`:
 
-    ```elixir
-    def deps do
-      [{:nwith, "~> 0.1.0"}]
-    end
-    ```
+```elixir
+def deps do
+  [{:nwith, "~> 0.1.0"}]
+end
+```
 
-  2. Run `mix deps.get` in your console to fetch from Hex
+2. Run `mix deps.get` in your console to fetch from Hex.
 
 
 ## Usage
